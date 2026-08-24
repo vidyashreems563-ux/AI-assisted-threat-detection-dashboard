@@ -1,0 +1,11 @@
+Threat_Type,IOC,Source,Status,CVE_ID,MITRE_ID
+Malware,Trojan Hash Detected,CISA,Active,CVE-2023-23397,T1204
+Phishing,Suspicious Email Domain,OpenPhish,Active,CVE-2022-30190,T1566
+Ransomware,WannaCry Signature,CISA,Critical,CVE-2021-34527,T1486
+Brute Force,Multiple Failed Login Attempts,Internal SOC,High,N/A,T1110
+Suspicious Login,Unknown Device Login,Microsoft Defender,Medium,N/A,T1078
+DDoS,High Network Traffic,Cloudflare,High,N/A,T1498
+SQL Injection,Malicious SQL Query,OWASP,High,CVE-2019-1234,T1190
+Cross Site Scripting,XSS Payload Detected,OWASP,Medium,CVE-2020-5678,T1059
+Botnet,Command and Control Traffic,CISA,Critical,CVE-2021-9876,T1105
+Privilege Escalation,Unauthorized Admin Access,MITRE,High,CVE-2021-34527,T1068
